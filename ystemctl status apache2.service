@@ -1,0 +1,1189 @@
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[28827]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10739 and the job result is done.[0m
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 5.693s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10739.[0m
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[28850]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 19:35:00 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 10739.[0m
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13034.[0m
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[36098]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13034 and the job result is done.[0m
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 7.454s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13034.[0m
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[36105]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 20:21:06 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13034.[0m
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13139.[0m
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[36210]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13139 and the job result is done.[0m
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13139.[0m
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[36216]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 20:21:58 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13139.[0m
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13353.[0m
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[36481]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13353 and the job result is done.[0m
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13353.[0m
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[36487]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 20:25:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 13353.[0m
+Apr 05 21:42:01 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15473.[0m
+Apr 05 21:42:01 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[41267]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 21:42:01 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 21:42:01 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15473 and the job result is done.[0m
+Apr 05 21:42:01 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15473.[0m
+Apr 05 21:42:02 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[41274]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 21:42:02 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15473.[0m
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15687.[0m
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[41735]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15687 and the job result is done.[0m
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15687.[0m
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[41743]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 21:53:34 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 15687.[0m
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17275.[0m
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[44552]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17275 and the job result is done.[0m
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17275.[0m
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[44559]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 22:06:16 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17275.[0m
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17594.[0m
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[44917]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17594 and the job result is done.[0m
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17594.[0m
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[44924]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 22:13:18 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17594.[0m
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17807.[0m
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[45111]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17807 and the job result is done.[0m
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17807.[0m
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[45118]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 05 22:14:15 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 17807.[0m
+Apr 06 00:00:03 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 21216.[0m
+Apr 06 00:00:03 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[50543]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:00:03 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 21216 and the job result is done.[0m
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 21638.[0m
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[51471]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 21638 and the job result is done.[0m
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 21638.[0m
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[51478]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:04:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 21638.[0m
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22164.[0m
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[52900]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22164 and the job result is done.[0m
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22164.[0m
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[52908]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:18:27 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22164.[0m
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22585.[0m
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[53447]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22585 and the job result is done.[0m
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22585.[0m
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[53454]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:19:35 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 22585.[0m
+Apr 06 00:26:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23111.[0m
+Apr 06 00:26:11 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[55744]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:26:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:26:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23111 and the job result is done.[0m
+Apr 06 00:26:11 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23111.[0m
+Apr 06 00:26:11 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[55754]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23111.[0m
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23216.[0m
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[55790]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23216 and the job result is done.[0m
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23216.[0m
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[55796]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:26:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23216.[0m
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23321.[0m
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[56025]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23321 and the job result is done.[0m
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23321.[0m
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[56033]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:30:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23321.[0m
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23952.[0m
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[57590]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23952 and the job result is done.[0m
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23952.[0m
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[57597]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:37:13 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 23952.[0m
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 24271.[0m
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[58296]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 24271 and the job result is done.[0m
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 24271.[0m
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[58304]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 00:48:56 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 24271.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25026.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[59861]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 58309 (apache2) with signal SIGKILL.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 58325 (apache2) with signal SIGKILL.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25026 and the job result is done.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 7.491s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25026.[0m
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[59868]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 01:28:07 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 25026.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26205.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[62732]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 59873 (apache2) with signal SIGKILL.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 59874 (apache2) with signal SIGKILL.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26205 and the job result is done.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 5.220s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26205.[0m
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[62739]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 02:38:26 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26205.[0m
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26310.[0m
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[62758]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26310 and the job result is done.[0m
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26310.[0m
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[62767]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 02:38:40 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 26310.[0m
+Apr 06 03:09:39 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27152.[0m
+Apr 06 03:09:39 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[64510]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:09:39 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27152 and the job result is done.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27153.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[65409]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 65035 (apache2) with signal SIGKILL.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27153 and the job result is done.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 11.159s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27153.[0m
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[65417]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:31:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27153.[0m
+Apr 06 03:39:21 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27363.[0m
+Apr 06 03:39:21 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[65740]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 65419 (apache2) with signal SIGKILL.[0m
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 65423 (apache2) with signal SIGKILL.[0m
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27363 and the job result is done.[0m
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 3.242s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27363.[0m
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[65747]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:39:22 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27363.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27686.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[66178]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 65756 (apache2) with signal SIGKILL.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27686 and the job result is done.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 1.116s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27686.[0m
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[66185]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:48:12 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27686.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27791.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[66346]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 66188 (apache2) with signal SIGKILL.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 66245 (apache2) with signal SIGKILL.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27791 and the job result is done.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 1.890s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27791.[0m
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[66352]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:52:45 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 27791.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28005.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[66622]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 66355 (apache2) with signal SIGKILL.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28005 and the job result is done.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Consumed 2.439s CPU time.
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28005.[0m
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[66629]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 06 03:59:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 28005.[0m
+Apr 07 00:00:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 44921.[0m
+Apr 07 00:00:04 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[81103]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 07 00:00:04 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 44921 and the job result is done.[0m
+Apr 08 00:01:31 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 73024.[0m
+Apr 08 00:01:52 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[97144]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 08 00:01:52 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloaded apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 73024 and the job result is done.[0m
+Apr 08 03:07:29 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopping apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 80232.[0m
+Apr 08 03:08:23 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[101007]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 08 03:08:24 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Killing process 97151 (apache2) with signal SIGKILL.[0m
+Apr 08 03:08:24 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: apache2.service: Deactivated successfully.
+[0;38;5;245m░░ [0m[0;32mSubject: Unit succeeded[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service has successfully entered the 'dead' state.[0m
+Apr 08 03:08:24 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Stopped apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A stop job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA stop job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 80232 and the job result is done.[0m
+Apr 08 03:08:24 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mapache2.service: Consumed 10min 27.600s CPU time.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: Resources consumed by unit runtime[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe unit apache2.service completed and consumed the indicated resources.[0m
+Apr 08 03:08:24 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Starting apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 80232.[0m
+Apr 08 03:08:25 ubuntu-s-1vcpu-1gb-nyc3-01 apachectl[101017]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Apr 08 03:08:25 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Started apache2.service - The Apache HTTP Server.
+[0;38;5;245m░░ [0m[0;32mSubject: A start job for unit apache2.service has finished successfully[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA start job for unit apache2.service has finished successfully.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 80232.[0m
+Apr 08 13:56:46 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: Reloading apache2.service - The Apache HTTP Server...
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has begun execution[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has begun execution.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 107537.[0m
+Apr 08 13:58:17 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mapache2.service: Reload operation timed out. Killing reload process.[0m
+Apr 08 13:58:17 ubuntu-s-1vcpu-1gb-nyc3-01 systemd[1]: [0;1;31m[0;1;39m[0;1;31mReload failed for apache2.service - The Apache HTTP Server.[0m
+[0;38;5;245m░░ [0m[0;32mSubject: A reload job for unit apache2.service has finished[0m
+[0;38;5;245m░░[0m [0;32mDefined-By: systemd[0m
+[0;38;5;245m░░[0m [0;32mSupport: http://www.ubuntu.com/support[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mA reload job for unit apache2.service has finished.[0m
+[0;38;5;245m░░[0m [0;32m[0m
+[0;38;5;245m░░[0m [0;32mThe job identifier is 107537 and the job result is failed.[0m
