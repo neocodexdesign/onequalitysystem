@@ -1,0 +1,159 @@
+ssh root@157.245.125.186
+Servidor: root@157.245.125.186 
+Senha: CafecomPaodeQueijo@9148Minas
+-----------------------------------
+Para Listar os Usuarios/Grupos:
+less /etc/passwd (listar os usuarios)
+cut -d : -f 1 /etc/passwd (listar os nomes)
+less /etc/group (listar os grupos)
+cut -d : -f 1 /etc/group (para listar os nomes)
+w (para ver quem ta loggado)
+
+Para trocar a password de um user:
+passwd root (para o root)
+
+tutorials:
+https://www.hostinger.com.br/tutoriais/usuarios-sistema-linux
+https://www.hivelocity.net/kb/how-to-change-password-linux/
+
+para reeiniciar o server:
+sudo reboot
+sudo shutdown
+sudo systemctl restart apache2
+https://opensource.com/article/19/7/reboot-linux
+rm file (Para apagar um arquivo)
+rm -r dir (para apagar um diretorio)
+sudo mkdir NovaPasta (Para criar uma pasta)
+-------------------------------------------------
+
+Para instalar o programa de auditoria
+https://sematext.com/glossary/auditd/
+
+--------------------------------------------------------------------------------------------------
+CREATE USER 'TinGJL!MaisAltoCeus'@'localhost' IDENTIFIED BY 'CafecomPaodeQueijo@9148Minas';
+GRANT ALL PRIVILEGES ON * . * TO 'TinGJL!MaisAltoCeus'@'localhost';
+
+Links Ubuntu\Apache\MySql - Importantes
+https://www.ionos.ca/digitalguide/server/configuration/install-apache-on-ubuntu/
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+
+Liberar Boostrap and Storage
+sudo chmod -R 775 /var/www/html/bootstrap/cache
+sudo chmod -R 775 /var/www/html/storage
+sudo chown -R www-data:www-data /var/www/html/bootstrap/cache
+sudo chown -R www-data:www-data /var/www/html/storage
+
+sudo apt install mysql-server
+install apache
+apt install unzip
+apt install composer
+
+mysql -u root -p
+CafecomPaodeQueijo@9148Minas
+
+zip -r abc.zip . -x "node_modules/**" -x "*.git/**" 
+https://askubuntu.com/questions/371579/how-to-exclude-directories-and-file-zipping-a-director
+
+CREATE USER 'TinGJL!MaisAltoCeus'@'localhost' IDENTIFIED BY 'CafecomPaodeQueijo@9148Minas';
+GRANT ALL PRIVILEGES ON * . * TO 'TinGJL!MaisAltoCeus'@'localhost';
+
+Ubuntu:
+https://www.ionos.ca/digitalguide/server/configuration/install-apache-on-ubuntu/
+
+MySql Installation:
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+
+SSL Certificates:
+https://docs.digitalocean.com/support/how-do-i-install-an-ssl-certificate-on-a-droplet/
+https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu
+
+
+Para Instalar nova versao:
+composer install
+npm install vite --save-dev
+npm cache clean --force
+rm -rf node_modules
+rm package-lock.json
+npm install
+npm run build
+
+acesso ao mysql:
+ip do server: 157.245.125.186 
+ip da minha maquina: 10.0.0.186
+user: 3@Super!Dev
+password: Pency!39@ltmsea
+
+CREATE USER '3SuperDevDell4'@'localhost' IDENTIFIED BY 'Pency!39@ltmsea';
+GRANT ALL PRIVILEGES ON 1QCP.* TO '3SuperDevDell4'@'localhost' ;
+FLUSH PRIVILEGES;
+
+CREATE USER '3@Super!Dev'@'10.0.0.186' IDENTIFIED BY 'Pency!39@letmesee';
+GRANT ALL PRIVILEGES ON 1QCP.* TO '3@Super!Dev'@'10.0.0.186';
+FLUSH PRIVILEGES;
+
+mysql -u root -p
+Senha: CafecomPaodeQueijo@Minas9148Dami
+
+zip -r abc.zip . -x "node_modules/**" -x "*.git/**" 
+
+Instalacoa do filament
+composer require filament/filament:"^3.1" -W
+
+Para usar o Zip: unzip loja-3-16-2024-12-35
+
+Para apagar um arquivo: rm file
+para apagar um diretorio: rm -r dir
+Para criar uma pasta: sudo mkdir NovaPasta
+
+para resetar o sistema: sudo systemctl restart apache2
+ou sudo systemctl start (servico)
+
+sudo chmod -R 775 /var/www/html/loja/bootstrap/cache
+sudo chmod -R 775 /var/www/html/loja/storage
+sudo chown -R www-data:www-data /var/www/html/loja/bootstrap/cache
+sudo chown -R www-data:www-data /var/www/html/loja/storage
+sudo nano /etc/apache2/sites-available/000-default.conf
+******************************************************
+DocumentRoot /var/www/html/loja/public
+        <Directory /var/www/html/loja/public>
+*******************************************************
+
+Ubuntu:
+https://www.ionos.ca/digitalguide/server/configuration/install-apache-on-ubuntu/
+
+MySql Installation:
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+
+SSL Certificates:
+https://docs.digitalocean.com/support/how-do-i-install-an-ssl-certificate-on-a-droplet/
+https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu
+
+Start/Stop/Restart Linux Commands
+https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/
+
+Uma configuracao para o .env
+DB_CONNECTION=mysql
+DB_HOST=157.245.125.186
+DB_PORT=3306
+DB_DATABASE=1QCP
+DB_USERNAME=TinGJL!MaisAltoCeus
+DB_PASSWORD=CafecomPaodeQueijo@9148Minas
+
+Para suprimir o acesso geral descomente a linha 
+bind-address
+que esta no arquivo
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+sudo nano /etc/mysql/mysql.conf.d/conf.d
+
+O servidor MySQL precisa ser configurado para aceitar conexões remotas. Por padrão, o MySQL está configurado para aceitar conexões apenas de localhost. Para permitir conexões remotas, a configuração bind-address no arquivo de configuração do MySQL (my.cnf ou mysqld.cnf) deve ser ajustada para 0.0.0.0, ou a linha pode ser comentada para permitir conexões em todas as interfaces de rede.
+As portas do servidor (geralmente a porta 3306 para MySQL) devem estar abertas e acessíveis de endereços IP remotos. Isso pode exigir configuração no firewall do servidor para permitir tráfego entrante na porta do MySQL.
+sudo systemctl restart mysql
+
+Volte o .env para as seguintes configuracoes:
+DB_CONNECTION=mysql
+DB_HOST=157.245.125.186
+DB_PORT=3306
+DB_DATABASE=1QCP
+DB_USERNAME=3SuperDevDell4
+DB_PASSWORD=Pency!39@ltmsea
+O server retire o curinga do user e volte para localhost apos deploy.
