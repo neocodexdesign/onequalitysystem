@@ -8,11 +8,11 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ImportExcelController;
 use App\Http\Controllers\ExportController;
 use App\Http\Controllers\EventController;
+use App\Http\Controllers\Google;
 use App\Http\Livewire\CalendarModal;
 
 use App\Http\Controllers\WorkdoneController;
-
-
+use App\Http\Controllers\GoogleImportController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +29,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/importfromgoogle', [GoogleImportController::class, 'importfromgoogle'])->name('importfromgoogle');
 
 Route::get('/wwd', [WorkdoneController::class, 'list'])->name('list');
 

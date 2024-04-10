@@ -491,6 +491,33 @@ function fetchEventsForDate(date) {
         .then(response => response.json())
         .then(events => {
             let html = '<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
                 <strong>Eventos:</strong>
             </div>';
             events.forEach(event => {
