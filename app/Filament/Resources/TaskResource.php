@@ -121,13 +121,7 @@ class TaskResource extends Resource
             ->actions([
                 Tables\Actions\EditAction::make(),
             ])
-            ->headerActions([
-                // Dentro do método table(Table $table): Table
-                Tables\Actions\Action::make('import') // 'newAction' é um identificador único para a ação
-                ->label('Import from Google') // O texto que será exibido para o usuário
-                ->url(route('importfromgoogle')), // Opcional: para onde a ação deve levar o usuário. Use `url()` para uma URL arbitrária ou `route()` para uma rota nomeada.
-            ])
-          
+           
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),

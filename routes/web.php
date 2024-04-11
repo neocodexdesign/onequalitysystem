@@ -33,7 +33,6 @@ Route::get('/google.getDatetoImport', function () {
     return view('google.getDatetoImport');
 })->name('google.import');
 
-
 // Definindo a rota 'importfromgoogle'
 Route::get('/importfromgoogle', [GoogleImportController::class, 'import'])->name('importfromgoogle');
 Route::get('/wwd', [WorkdoneController::class, 'list'])->name('list');

@@ -19,11 +19,8 @@ use Carbon\Carbon;
 use App\Models\Task;
 
 class CalendarGoogle extends FullCalendarWidget
-{
-    
-
+{  
     public Model | string | null $model = Task::class;
- 
     public function fetchEvents(array $fetchInfo): array
     {
         //dd($fetchInfo);
