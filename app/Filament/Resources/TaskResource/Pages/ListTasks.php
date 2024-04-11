@@ -4,12 +4,14 @@ namespace App\Filament\Resources\TaskResource\Pages;
 
 use App\Filament\Resources\TaskResource;
 use Illuminate\Http\Request;
+use Illuminate\Contracts\View\View;
+use Illuminate\Support\Facades\DB;
+
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 use Carbon\Carbon;
 use App\Models\Task;
 use Spatie\GoogleCalendar\Event;
-use Illuminate\Contracts\View\View;
 
 class ListTasks extends ListRecords
 {
@@ -26,7 +28,73 @@ class ListTasks extends ListRecords
         ];
     }
 
-    public function save(Request $request)
+    public function consistbuildings(Request $request) {
+
+       
+
+        $tasks = Task::all();
+
+        foreach ($tasks as $task) {
+
+            set_time_limit(300); 
+            
+            // Dividir a location nas suas partes constituintes
+            $parts = explode(',', $task->location);
+            if (count($parts) < 5) {
+                // Se não tem todas as partes esperadas, talvez trate o erro ou pule este task
+                continue;
+            }
+    
+            // Remover espaços em branco extras e converter para minúsculas para comparação
+            $name = trim($parts[0]);
+            $address = trim($parts[1]);
+            $city = trim($parts[2]);
+            $stateZip = explode(' ', trim($parts[3]), 2); // Espera-se que tenha 2 partes: State e Zip
+            if (count($stateZip) < 2) {
+                // Se não tem ambos state e zip, talvez trate o erro ou pule este task
+                continue;
+            }
+            $state = $stateZip[0];
+            $zip = $stateZip[1];
+            $country = trim($parts[4]);
+    
+            // Verifica se o building já existe nos campos 'name' ou 'name_wwd'
+            $buildingExists = DB::table('buildings')
+                ->where(function($query) use ($name) {
+                    $query->whereRaw('LOWER(name) = ?', [strtolower($name)])
+                          ->orWhereRaw('LOWER(name_wwd) = ?', [strtolower($name)]);
+                })
+                ->exists();
+               
+            if (!$buildingExists) {
+                // Se não existe, cria um novo registro em buildings
+                DB::table('buildings')->insert([
+                    'name' => $name,
+                    'address' => $address,
+                    'city' => $city,
+                    'state' => $state,
+                    'zip' => $zip,
+                    'country' => $country,
+                ]);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            
+        }
+    }
+
+
+    public function importfromgoogle(Request $request)
     {
         {
             // Acessa as propriedades diretamente

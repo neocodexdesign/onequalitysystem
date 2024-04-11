@@ -490,36 +490,7 @@ function fetchEventsForDate(date) {
     return fetch(`/get-orders-by-date?date=${date}`)
         .then(response => response.json())
         .then(events => {
-            let html = '<div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-                <strong>Eventos:</strong>
-            </div>';
+            let html = '<div><strong>Eventos:</strong></div>';
             events.forEach(event => {
                 html += `<div>${event.description} - ${new Date(event.startDate).toLocaleDateString()}</div>`;
             });
