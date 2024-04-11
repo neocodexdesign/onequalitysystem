@@ -81,7 +81,7 @@ class EventResource extends Resource
                     ->icon('heroicon-o-printer'), // Opcional: Ícone para a ação. Certifique-se de usar um ícone disponível.
 
                 Tables\Actions\Action::make('import') // 'newAction' é um identificador único para a ação
-                    ->label('Expor to Calendar') // O texto que será exibido para o usuário
+                    ->label('Export to Calendar') // O texto que será exibido para o usuário
                     ->url(route('exportcalendar')), // Opcional: para onde a ação deve levar o usuário. Use `url()` para uma URL arbitrária ou `route()` para uma rota nomeada.
             ])
 

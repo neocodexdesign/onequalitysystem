@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Carbon\Carbon;
 
 class Task extends Model
 {
@@ -38,4 +39,8 @@ class Task extends Model
 
     protected $casts = ['start' => 'datetime', 'end' => 'datetime'];
 
+    public function getServiceDateAttribute($value)
+    {
+        return Carbon::parse($value)->format('M-d-Y');
+    }
 }

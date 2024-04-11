@@ -15,7 +15,6 @@ use Filament\Forms\Components\Toggle;
 use App\Models\Order;
 use Carbon\Carbon;
 
-
 class CalendarWidget extends FullCalendarWidget
 {
     public Model | string | null $model = Order::class;
@@ -136,8 +135,6 @@ class CalendarWidget extends FullCalendarWidget
                                 ->offColor('danger'),
                         ]),
                 ]),
-
-
         ];
     }
 }

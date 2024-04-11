@@ -89,7 +89,6 @@ class OrderResource extends Resource
                 Tables\Columns\TextColumn::make('unit')
                     ->sortable(),
 
-
                 Tables\Columns\TextColumn::make('service_date')
                     ->getStateUsing(function ($record) {
                         // Assuming 'service_date' is a field in your model

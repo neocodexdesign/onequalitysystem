@@ -20,6 +20,7 @@ class Order extends Model
         'notes',
         'from',
         'status',
+        'size',
     ];
 
     protected $dates = ['service_date', 'paint_date', 'cleaning_date'];

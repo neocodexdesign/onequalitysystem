@@ -9,9 +9,11 @@ use App\Models\Task;
 use Spatie\GoogleCalendar\Event;
 
 class GoogleImportController extends Controller
-{
-    public function importfromgoogle()
+{  
+    public function import(Request $request)
     {
+       
+        dd($request);
 
         $fusoHorario = 'America/New_York'; // Fuso horário de Boston
         $startOfDay = Carbon::today($fusoHorario);
@@ -48,15 +50,16 @@ class GoogleImportController extends Controller
           $task->save(); // Salva a nova task no banco de dados
 
       }  
-      
-      
-          }
+    }
 }
 /*
 O método Event::get() do pacote spatie/laravel-google-calendar é usado para buscar eventos do Google Calendar associado à configuração padrão ou específica que você definiu em sua aplicação Laravel. Por padrão, se nenhum parâmetro é passado para Event::get(), ele busca todos os eventos do calendário principal dentro de um intervalo de tempo padrão definido pela biblioteca.
 
 Personalizando o Período da Busca
-Para especificar um período para a busca dos eventos, você pode passar parâmetros adicionais ao método get(). Os parâmetros que você pode especificar incluem datas de início e término, entre outros filtros suportados pela API do Google Calendar. Aqui está como você pode fazer isso:
+Para especificar um período para a busca dos eventos, você pode passar parâmetros adicionais ao método get(). 
+Os parâmetros que você pode especificar incluem datas de início e término, 
+entre outros filtros suportados pela API do Google Calendar. 
+Aqui está como você pode fazer isso:
 
 php
 Copy code
