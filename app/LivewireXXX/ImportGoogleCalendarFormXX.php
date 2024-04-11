@@ -3,7 +3,7 @@
 namespace App\Livewire;
 
 use Livewire\Component;
-use LivewireUI\Modal\ModalComponent; // Se estiver usando o Livewire Modal
+use Modal\ModalComponent; // Se estiver usando o Livewire Modal
 
 
 class ImportGoogleCalendarForm extends ModalComponent

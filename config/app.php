@@ -171,7 +171,6 @@ return [
         App\Providers\Filament\AdminPanelProvider::class,
         App\Providers\RouteServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
-        LivewireUI\Modal\LivewireModalServiceProvider::class,
 
     ])->toArray(),
 
