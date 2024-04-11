@@ -37,7 +37,7 @@ class ListTasks extends ListRecords
         foreach ($tasks as $task) {
 
             set_time_limit(300); 
-            
+
             // Dividir a location nas suas partes constituintes
             $parts = explode(',', $task->location);
             if (count($parts) < 5) {
@@ -66,10 +66,12 @@ class ListTasks extends ListRecords
                 })
                 ->exists();
                
+            $name = strtoupper(trim($parts[0]));
             if (!$buildingExists) {
                 // Se não existe, cria um novo registro em buildings
                 DB::table('buildings')->insert([
                     'name' => $name,
+                    'name_wwd' => $name,
                     'address' => $address,
                     'city' => $city,
                     'state' => $state,
@@ -94,7 +96,7 @@ class ListTasks extends ListRecords
     }
 
 
-    public function importfromgoogle(Request $request)
+    public function save(Request $request)
     {
         {
             // Acessa as propriedades diretamente

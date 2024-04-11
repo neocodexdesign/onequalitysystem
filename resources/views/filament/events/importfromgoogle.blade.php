@@ -9,7 +9,7 @@
     <div class="font-bold text-3xl">Events</div>
 </div>
 <div class="flex items-center space-x-2"> <!-- Contêiner flexível com espaçamento -->    
-    <form wire:submit="importfromgoogle" class="w-full flex mt-2 items-center">
+    <form wire:submit="save" class="w-full flex mt-2 items-center">
         <div class="flex items-center space-x-2"> <!-- Ajustado o espaçamento entre os elementos -->
             <input class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-6" type="date" wire:model="dateFrom" required>
             <input class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mr-6" type="date" wire:model="dateTo" required>
