@@ -61,8 +61,7 @@ class BuildingResource extends Resource
                                         Forms\Components\TextInput::make('email')
                                             ->email()
                                             ->maxLength(255),
-                                        Forms\Components\TextInput::make('website')
-                                            ->required()
+                                        Forms\Components\TextInput::make('website')                                           
                                             ->maxLength(255),
                                         Forms\Components\TextInput::make('address')
                                             ->maxLength(255),
@@ -88,8 +87,7 @@ class BuildingResource extends Resource
                                         Forms\Components\Select::make('property_id')
                                             ->relationship('property', 'name')
                                             ->searchable()
-                                            ->preload()
-                                            ->required()
+                                            ->preload()                                            
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('name')
                                                     ->required()
@@ -126,7 +124,7 @@ class BuildingResource extends Resource
                                             ->relationship('assistant', 'name')
                                             ->searchable()
                                             ->preload()
-                                            ->required()
+                                            
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('name')
                                                     ->required()
@@ -164,7 +162,7 @@ class BuildingResource extends Resource
                                             ->relationship('maintenance', 'name')
                                             ->searchable()
                                             ->preload()
-                                            ->required()
+                                            
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('name')
                                                     ->required()
@@ -202,7 +200,7 @@ class BuildingResource extends Resource
                                                 ->relationship('technician', 'name')
                                                 ->searchable()
                                                 ->preload()
-                                                ->required()
+                                                
                                                 ->createOptionForm([
                                                     Forms\Components\TextInput::make('name')
                                                         ->required()
@@ -249,7 +247,7 @@ class BuildingResource extends Resource
                                                     ->relationship('wwdpay', 'description')
                                                     ->searchable()
                                                     ->preload()
-                                                    ->required()
+                                                    
                                                     ->createOptionForm([
                                                         Forms\Components\TextInput::make('description')
                                                             ->required()
