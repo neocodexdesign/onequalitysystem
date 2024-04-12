@@ -11,8 +11,7 @@ class Wddpay extends Model
     use HasFactory;
     
     protected $fillable = [
-        'description',
-        
+        'description',        
         // Adicione outros campos aqui conforme necessário
     ];
 
