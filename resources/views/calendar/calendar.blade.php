@@ -348,7 +348,7 @@
 </body>
 
 
-{{--
+
 <script>
 document.querySelectorAll('.day').forEach(day => {
     day.addEventListener('click', function() {

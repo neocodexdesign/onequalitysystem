@@ -83,12 +83,21 @@ class ListTasks extends ListRecords
         } finally {
             $this->isLoading = false;
         }
+        
+
+
+
+
+
+
+
     }
 
 
     public function save(Request $request)
     {
         try {
+            set_time_limit(300); 
             $this->isLoading = true;
             $this->statusMessage = 'Importando eventos o Google Calendar...';
             // Acessa as propriedades diretamente
@@ -104,8 +113,7 @@ class ListTasks extends ListRecords
             // Exemplo: buscar eventos dentro do intervalo de datas
             $events = Event::get($startOfDay, $endOfDay);
             foreach ($events as $event) {
-                if (!is_null($event)) {
-                  
+                if (!is_null($event)) {                  
                     $task = new Task();
                     $task->title = $event->summary;
                     //$task->summary = $event->description ?? ''; // Usando operador de coalescência nula para campos opcionais
@@ -129,6 +137,24 @@ class ListTasks extends ListRecords
         } finally {
             $this->isLoading = false;
         }
+
+        // Exemplos de uso
+        //        $titles = [
+        //    'ARTUR 1304*',
+        //    'TIAGO J1603 DOOR',
+        //    'GILMAR B412 / B512 / B611 / B712 / B811',
+        //    'PAULO + CLAUDEMIR G216',
+        //    'A409 / A509 / A609 / A709 / A809 / A909 / A1009 / APH5',
+        //    'Some other format that does not match any pattern'
+        //];
+        //
+        //foreach ($titles as $title) {
+        //    $result = parseTitle($title);
+        //    echo "Pintor: " . ($result['painter'] ?? "N/A") . "\n";
+        //    echo "Unidades: " . implode(', ', $result['units']) . "\n";
+        //    echo "Descrição: " . ($result['description'] ?? "Nenhuma descrição") . "\n";
+        //}
+
     }
   
     public function getHeader(): ?View
@@ -137,4 +163,72 @@ class ListTasks extends ListRecords
         // Você pode definir aqui o que acontece quando o modal deve ser aberto
         // Por exemplo, definir alguma variável de estado ou preparar dados
     }
+
+    function parseTitle($title) {
+        // Remove espaços extras e prepara a string
+        $title = trim(preg_replace('/\s+/', ' ', $title));
+    
+        // Tenta capturar padrões com pintor, unidades e casos especiais
+        if (preg_match('/^([a-zA-Z\s]+)(?:\s\+\s[a-zA-Z\s]+)?\s([A-Z0-9]+)(?:\s?\/\s?[A-Z0-9]+)*$/', $title, $matches)) {
+            $painter = trim($matches[1]); // Primeiro pintor antes de qualquer '+'
+            $unitsString = trim($matches[2]); // String das unidades
+    
+            // Separa as unidades em um array usando '/'
+            $units = array_map('trim', explode('/', $unitsString));
+    
+            return [
+                'painter' => $painter,
+                'units' => $units,
+                'description' => null // Sem descrição adicional necessária
+            ];
+        } elseif (preg_match('/^((?:[A-Z0-9]+\s?(?:\/\s?)?)+)$/', $title, $matches)) {
+            // Trata caso com apenas unidades
+            $units = array_map('trim', explode('/', $title));
+    
+            return [
+                'painter' => null,
+                'units' => $units,
+                'description' => null
+            ];
+        } else {
+            // Fallback para descrição geral se nenhum padrão for identificado
+            return [
+                'painter' => null,
+                'units' => [],
+                'description' => $title // Usa a linha inteira como descrição
+            ];
+        }
+    }
 }
+    
+
+
+    /*
+
+    // Exemplos de uso
+    $titles = [
+        'ARTUR 1304*',
+        'TIAGO J1603 DOOR',
+        'GILMAR B412 / B512 / B611 / B712 / B811',
+        'PAULO + CLAUDEMIR G216',
+        'A409 / A509 / A609 / A709 / A809 / A909 / A1009 / APH5',
+        'Some other format that does not match any pattern'
+    ];
+    
+    foreach ($titles as $title) {
+        $result = parseTitle($title);
+        echo "Pintor: " . ($result['painter'] ?? "N/A") . "\n";
+        echo "Unidades: " . implode(', ', $result['units']) . "\n";
+        echo "Descrição: " . ($result['description'] ?? "Nenhuma descrição") . "\n";
+    }
+    
+
+    Explicação Detalhada
+    Expressões Regulares:
+    A primeira expressão regular captura possíveis nomes de pintor seguidos por unidades, permitindo também casos com múltiplos pintores (separados por +) e múltiplas unidades (separadas por /).
+    A segunda expressão regular é para capturar strings que contêm apenas unidades sem um pintor claramente identificável.
+    O fallback captura qualquer texto que não se encaixe nos padrões como uma descrição geral.
+    Manipulação e Saída:
+    Cada caso processado tenta extrair e organizar as informações em um formato estruturado, com pintores, unidades e descrições claras.
+    Este script agora é capaz de processar uma ampla gama de formatos de entrada e oferece uma maneira robusta de lidar com dados possivelmente inconsistentes ou não padronizados, proporcionando flexibilidade e confiabilidade na manipulação de dados variados.
+    */

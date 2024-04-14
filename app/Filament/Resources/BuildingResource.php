@@ -35,7 +35,7 @@ class BuildingResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-check-badge';
 
-    protected static ?string $navigationGroup = 'Buidings Administration';
+    protected static ?string $navigationGroup = 'Buidings x Administration';
 
     public static function getNavigationBadge(): string
     {
@@ -61,7 +61,7 @@ class BuildingResource extends Resource
                                         Forms\Components\TextInput::make('email')
                                             ->email()
                                             ->maxLength(255),
-                                        Forms\Components\TextInput::make('website')                                           
+                                        Forms\Components\TextInput::make('website')
                                             ->maxLength(255),
                                         Forms\Components\TextInput::make('address')
                                             ->maxLength(255),
@@ -78,16 +78,16 @@ class BuildingResource extends Resource
                                             ->directory('buildings')
                                             ->downloadable(),
                                     ])
-                                ]),
-                                                                
+                            ]),
+
                         Tabs\Tab::make('Staff')
-                            ->schema([  
+                            ->schema([
                                 Section::make()
-                                    ->schema([ 
+                                    ->schema([
                                         Forms\Components\Select::make('property_id')
                                             ->relationship('property', 'name')
                                             ->searchable()
-                                            ->preload()                                            
+                                            ->preload()
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('name')
                                                     ->required()
@@ -124,7 +124,7 @@ class BuildingResource extends Resource
                                             ->relationship('assistant', 'name')
                                             ->searchable()
                                             ->preload()
-                                            
+
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('name')
                                                     ->required()
@@ -162,7 +162,7 @@ class BuildingResource extends Resource
                                             ->relationship('maintenance', 'name')
                                             ->searchable()
                                             ->preload()
-                                            
+
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('name')
                                                     ->required()
@@ -177,105 +177,103 @@ class BuildingResource extends Resource
                                                             ->required()
                                                             ->maxLength(255),
                                                     ]),
-                                                    Forms\Components\TextInput::make('phone')
-                                                        ->tel()
-                                                        ->required()
-                                                        ->maxLength(255),
-                                                    Forms\Components\TextInput::make('email')
-                                                        ->email()
-                                                        ->required()
-                                                        ->maxLength(255),
-                                                    Toggle::make('receive_email')
-                                                        ->onColor('success')
-                                                        ->offColor('danger'),
-                                                    Toggle::make('receive_sms')
-                                                        ->onColor('success')
-                                                        ->offColor('danger'),
-                                                    Toggle::make('receive_app')
-                                                        ->onColor('success')
-                                                        ->offColor('danger'),
-                                                ]),
+                                                Forms\Components\TextInput::make('phone')
+                                                    ->tel()
+                                                    ->required()
+                                                    ->maxLength(255),
+                                                Forms\Components\TextInput::make('email')
+                                                    ->email()
+                                                    ->required()
+                                                    ->maxLength(255),
+                                                Toggle::make('receive_email')
+                                                    ->onColor('success')
+                                                    ->offColor('danger'),
+                                                Toggle::make('receive_sms')
+                                                    ->onColor('success')
+                                                    ->offColor('danger'),
+                                                Toggle::make('receive_app')
+                                                    ->onColor('success')
+                                                    ->offColor('danger'),
+                                            ]),
 
-                                            Forms\Components\Select::make('technician_id')
-                                                ->relationship('technician', 'name')
-                                                ->searchable()
-                                                ->preload()
-                                                
-                                                ->createOptionForm([
-                                                    Forms\Components\TextInput::make('name')
-                                                        ->required()
-                                                        ->maxLength(255),
-                                                    Forms\Components\Select::make('user_id')
-                                                        ->relationship('user', 'name')
-                                                        ->searchable()
-                                                        ->preload()
-                                                        ->required()
-                                                        ->createOptionForm([
-                                                            Forms\Components\TextInput::make('name')
-                                                                ->required()
-                                                                ->maxLength(255),
-                                                        ]),
-                                                    Forms\Components\TextInput::make('phone')
-                                                        ->tel()
-                                                        ->required()
-                                                        ->maxLength(255),
-                                                    Forms\Components\TextInput::make('email')
-                                                        ->email()
-                                                        ->required()
-                                                        ->maxLength(255),
-                                                    Toggle::make('receive_email')
-                                                        ->onColor('success')
-                                                        ->offColor('danger'),
-                                                    Toggle::make('receive_sms')
-                                                        ->onColor('success')
-                                                        ->offColor('danger'),
-                                                    Toggle::make('receive_app')
-                                                        ->onColor('success')
-                                                        ->offColor('danger'),
-                                                ]),                                      
-                                                
+                                        Forms\Components\Select::make('technician_id')
+                                            ->relationship('technician', 'name')
+                                            ->searchable()
+                                            ->preload()
+
+                                            ->createOptionForm([
+                                                Forms\Components\TextInput::make('name')
+                                                    ->required()
+                                                    ->maxLength(255),
+                                                Forms\Components\Select::make('user_id')
+                                                    ->relationship('user', 'name')
+                                                    ->searchable()
+                                                    ->preload()
+                                                    ->required()
+                                                    ->createOptionForm([
+                                                        Forms\Components\TextInput::make('name')
+                                                            ->required()
+                                                            ->maxLength(255),
+                                                    ]),
+                                                Forms\Components\TextInput::make('phone')
+                                                    ->tel()
+                                                    ->required()
+                                                    ->maxLength(255),
+                                                Forms\Components\TextInput::make('email')
+                                                    ->email()
+                                                    ->required()
+                                                    ->maxLength(255),
+                                                Toggle::make('receive_email')
+                                                    ->onColor('success')
+                                                    ->offColor('danger'),
+                                                Toggle::make('receive_sms')
+                                                    ->onColor('success')
+                                                    ->offColor('danger'),
+                                                Toggle::make('receive_app')
+                                                    ->onColor('success')
+                                                    ->offColor('danger'),
+                                            ]),
+
                                     ])
-                                ]),
-    
+                            ]),
+
                         Tabs\Tab::make('Contract')
                             ->schema([
                                 Section::make()
                                     ->schema([
                                         Forms\Components\FileUpload::make('contract')
-                                            ->multiple(),                                         
-                                                Forms\Components\Select::make('wwdpay_id')
-                                                    ->relationship('wwdpay', 'description')
-                                                    ->searchable()
-                                                    ->preload()
-                                                    
-                                                    ->createOptionForm([
-                                                        Forms\Components\TextInput::make('description')
-                                                            ->required()
-                                                            ->maxLength(255),                                                        
-                                                    ]),    
+                                            ->multiple(),
+                                        Forms\Components\Select::make('wwdpay_id')
+                                            ->relationship('wwdpay', 'description')
+                                            ->searchable()
+                                            ->preload()
+
+                                            ->createOptionForm([
+                                                Forms\Components\TextInput::make('description')
+                                                    ->required()
+                                                    ->maxLength(255),
+                                            ]),
                                     ])->columnSpan(span: 'full')
-                                        
-                                ]),
+
+                            ]),
+
 
                         Tabs\Tab::make('Contract')
-                        ->schema([
-                            Section::make()
-                                ->schema([
-                                    Forms\Components\FileUpload::make('contract')
-                                        ->multiple(),
-                                    Forms\Components\TextInput::make('name_wwd')
-                                        ->required()
-                                        ->maxLength(255),
+                            ->schema([
+                                Section::make()
+                                    ->schema([
+                                        Forms\Components\FileUpload::make('contract')
+                                            ->multiple(),
+                                        Forms\Components\TextInput::make('name_wwd')
+                                            ->required()
+                                            ->maxLength(255),
                                     ])->columnSpan(span: 'full')
-                                    
+
                             ]),
-                        ]),
-        ]);
-         
-                    
-           
+                    ]),
+            ]);
     }
-                    
+
 
 
     public static function table(Table $table): Table
@@ -285,16 +283,9 @@ class BuildingResource extends Resource
                 Tables\Columns\ImageColumn::make('image'),
                 Tables\Columns\TextColumn::make('name')
                     ->searchable(),
-
-
             ])
-
-            ->filters([
-                //
-            ])
+            
             ->actions([
-
-
                 Tables\Actions\Action::make('print')
                     ->url(function ($record) {
                         // Aqui você decodifica o contrato do JSON se ele for uma string,
@@ -319,19 +310,7 @@ class BuildingResource extends Resource
                     ->label('Proposals')
                     ->icon('heroicon-o-printer')
                     ->openUrlInNewTab(),
-                /*
-                Tables\Actions\Action::make('print2')
-                    ->url(function ($record) {
-                        // Supondo que $record seja uma instância de Building
-                        // e que cada Building tem um relacionamento 'proposals' que retorna suas Proposals
-                        if ($record->id) {
-                            return route('proposals.tabelaPreco', ['proposal' => $record->id]);
-                        }
-                    })
-                    ->label('Prices 1')
-                    ->icon('heroicon-o-printer')
-                    ->openUrlInNewTab(),
-                */
+               
                 Tables\Actions\Action::make('calendar')
                     ->url(function ($record) {
                         // Supondo que $record seja uma instância de Building
@@ -345,12 +324,21 @@ class BuildingResource extends Resource
                     ->icon('heroicon-o-printer')
                     ->openUrlInNewTab(),
 
+                Tables\Actions\Action::make('print')
+                    ->label('Imprimir')
+                    ->url(route('buildings.print'))  // Esta rota deve ser definida no seu web.php
+                    ->icon('heroicon-o-printer'),  // Ícone de impressora (opcional)
+            ])
+            ->headerActions([
+                Tables\Actions\Action::make('print')
+                ->label('Imprimir')
+                ->url(route('buildings.print'))  // Esta rota deve ser definida no seu web.php
+                ->icon('heroicon-o-printer'),  // Ícone de impressora (opcional)
             ])
 
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
-
 
                 ]),
             ]);

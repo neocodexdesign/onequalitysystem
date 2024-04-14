@@ -64,8 +64,7 @@ class TaskResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-            ->columns([
-                
+            ->columns([                
                 Tables\Columns\TextColumn::make('start')
                     ->getStateUsing(function ($record) {
                         // Assuming 'service_date' is a field in your model
@@ -73,23 +72,18 @@ class TaskResource extends Resource
                         return $date->format('m/d/Y'); // Format the date
                     })
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('location')
                     ->searchable()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('title')
                     ->searchable()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('summary')
                     ->searchable()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('status')
                     ->searchable()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('description')
                     ->searchable()
                     ->sortable(),
@@ -99,7 +93,6 @@ class TaskResource extends Resource
                     ->searchable(),
                 Tables\Columns\TextColumn::make('kind')
                     ->searchable(),
-
                 Tables\Columns\TextColumn::make('end')
                     ->dateTime()
                     ->sortable(),
@@ -109,7 +102,6 @@ class TaskResource extends Resource
                 Tables\Columns\TextColumn::make('created')
                     ->dateTime()
                     ->sortable(),
-
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()

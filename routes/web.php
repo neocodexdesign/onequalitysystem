@@ -13,6 +13,7 @@ use App\Http\Livewire\CalendarModal;
 
 use App\Http\Controllers\WorkdoneController;
 use App\Http\Controllers\GoogleImportController;
+use App\Http\Controllers\BuildingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,8 @@ Route::get('/', function () {
 Route::get('/google.getDatetoImport', function () {
     return view('google.getDatetoImport');
 })->name('google.import');
+
+Route::get('/buildings/print', [BuildingController::class, 'print'])->name('buildings.print');
 
 // Definindo a rota 'importfromgoogle'
 //Route::get('/importfromgoogle', [GoogleImportController::class, 'import'])->name('importfromgoogle');
