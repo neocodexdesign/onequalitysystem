@@ -12,6 +12,7 @@ use Filament\Resources\Pages\ListRecords;
 use Carbon\Carbon;
 use App\Models\Task;
 use Spatie\GoogleCalendar\Event;
+use App\Models\Teamleader;
 
 class ListTasks extends ListRecords
 {
@@ -37,8 +38,9 @@ class ListTasks extends ListRecords
             $this->statusMessage = 'Processando buildings...';
             $tasks = Task::all();
             set_time_limit(300); 
+            
             foreach ($tasks as $task) {
-                // Dividir a location nas suas partes constituintes
+                 // Dividir a location nas suas partes constituintes
                 $parts = explode(',', $task->location);
                 if (count($parts) < 5) {
                     // Se não tem todas as partes esperadas, talvez trate o erro ou pule este task
@@ -64,6 +66,7 @@ class ListTasks extends ListRecords
                     })
                     ->exists();
                 $name = strtoupper(trim($parts[0]));
+                
                 if (!$buildingExists) {
                     // Se não existe, cria um novo registro em buildings
                     DB::table('buildings')->insert([
@@ -74,25 +77,65 @@ class ListTasks extends ListRecords
                         'state' => $state,
                         'zip' => $zip,
                         'country' => $country,
+                        'property_id' => '1',
+                        'assistant_id' => '1',
+                        'maintenance_id' => '1',
+                        'tecHnician_id' => '1',
+
                     ]);
-                }            
-            }
+                }
+                
+            }        
             $this->statusMessage = 'Buildings processados com sucesso!';
         } catch (\Exception $e) {
             $this->statusMessage = 'Falha na importação: ' . $e->getMessage();
         } finally {
             $this->isLoading = false;
         }
-        
-
-
-
-
-
-
-
     }
 
+    public function processarTeamLeaders() 
+    {
+        $tasks = Task::all();
+        set_time_limit(300); 
+        foreach ($tasks as $task) {
+            /*
+            // Exemplos de uso
+            $titles = [
+                'ARTUR 1304*',
+                'TIAGO J1603 DOOR',
+                'GILMAR B412 / B512 / B611 / B712 / B811',
+                'PAULO + CLAUDEMIR G216',
+                'A409 / A509 / A609 / A709 / A809 / A909 / A1009 / APH5',
+                'Some other format that does not match any pattern'
+            ];
+            foreach ($titles as $title) {
+                $result = parseTitle($title);
+                echo "Pintor: " . ($result['painter'] ?? "N/A") . "\n";
+                echo "Unidades: " . implode(', ', $result['units']) . "\n";
+                echo "Descrição: " . ($result['description'] ?? "Nenhuma descrição") . "\n";
+            }
+            */
+            $result = $this->parseTitle($task->title);                
+            $painter = $result['painter'] ?? "N/A";
+            if ($painter !== "N/A") {
+                $this->ensureTeamLeaderExists($painter);
+            }
+        }
+    }
+
+    function ensureTeamLeaderExists($name) {
+        // Verificar se o TeamLeader já existe
+        $teamLeader = TeamLeader::where('name', $name)->first();
+        // Se não existir, cria um novo
+        if (!$teamLeader) {
+            $teamLeader = TeamLeader::create(['name' => $name]);
+            echo "Novo TeamLeader criado: " . $name . "\n";
+        } else {
+            echo "TeamLeader existente: " . $name . "\n";
+        }
+        return $teamLeader;
+    }
 
     public function save(Request $request)
     {
@@ -136,25 +179,7 @@ class ListTasks extends ListRecords
             $this->statusMessage = 'Falha na importação: ' . $e->getMessage();
         } finally {
             $this->isLoading = false;
-        }
-
-        // Exemplos de uso
-        //        $titles = [
-        //    'ARTUR 1304*',
-        //    'TIAGO J1603 DOOR',
-        //    'GILMAR B412 / B512 / B611 / B712 / B811',
-        //    'PAULO + CLAUDEMIR G216',
-        //    'A409 / A509 / A609 / A709 / A809 / A909 / A1009 / APH5',
-        //    'Some other format that does not match any pattern'
-        //];
-        //
-        //foreach ($titles as $title) {
-        //    $result = parseTitle($title);
-        //    echo "Pintor: " . ($result['painter'] ?? "N/A") . "\n";
-        //    echo "Unidades: " . implode(', ', $result['units']) . "\n";
-        //    echo "Descrição: " . ($result['description'] ?? "Nenhuma descrição") . "\n";
-        //}
-
+        }     
     }
   
     public function getHeader(): ?View
@@ -203,25 +228,7 @@ class ListTasks extends ListRecords
     
 
 
-    /*
-
-    // Exemplos de uso
-    $titles = [
-        'ARTUR 1304*',
-        'TIAGO J1603 DOOR',
-        'GILMAR B412 / B512 / B611 / B712 / B811',
-        'PAULO + CLAUDEMIR G216',
-        'A409 / A509 / A609 / A709 / A809 / A909 / A1009 / APH5',
-        'Some other format that does not match any pattern'
-    ];
-    
-    foreach ($titles as $title) {
-        $result = parseTitle($title);
-        echo "Pintor: " . ($result['painter'] ?? "N/A") . "\n";
-        echo "Unidades: " . implode(', ', $result['units']) . "\n";
-        echo "Descrição: " . ($result['description'] ?? "Nenhuma descrição") . "\n";
-    }
-    
+   /*
 
     Explicação Detalhada
     Expressões Regulares:
