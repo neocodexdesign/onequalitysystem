@@ -6,24 +6,3 @@
 
 Artigo explicativo:
 https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu
-
-Para Instalar nova versao:
-composer install
-npm install vite --save-dev
-npm cache clean --force
-rm -rf node_modules
-rm package-lock.json
-npm install
-npm run build
-
-acesso ao mysql:
-ip do server: 157.245.125.186 
-ip da minha maquina: 10.0.0.186
-user: 3@Super!Dev
-password: Pency!39@letmesee
-
-
-CREATE USER '3@Super!Dev'@'10.0.0.186' IDENTIFIED BY 'Pency!39@letmesee';
-GRANT ALL PRIVILEGES ON 1QCP.* TO '3@Super!Dev'@'10.0.0.186';
-FLUSH PRIVILEGES;
-
