@@ -20,7 +20,7 @@ class TeamleaderResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
-    protected static ?string $navigationGroup = 'Buidings Administration';
+    protected static ?string $navigationGroup = 'Buildings Administration';
 
     public static function form(Form $form): Form
 

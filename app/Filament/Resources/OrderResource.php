@@ -2,19 +2,21 @@
 
 namespace App\Filament\Resources;
 
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\SoftDeletingScope;
+
 use App\Filament\Resources\OrderResource\Pages;
 use App\Filament\Resources\OrderResource\RelationManagers;
-use App\Models\Order;
+
 use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
-
 use Filament\Forms\Components\DatePicker;
+use Filament\Forms\Components\Toggle;
 
+use App\Models\Order;
 
 class OrderResource extends Resource
 {
@@ -26,57 +28,70 @@ class OrderResource extends Resource
 
     public static function form(Form $form): Form
     {
+        
         return $form
             ->schema([
-                Forms\Components\TextInput::make('building_id')
-                    ->required()
-                    ->numeric(),
+                Forms\Components\Grid::make()
+                ->schema([
+                    Forms\Components\TextInput::make('unit'),
+                    Forms\Components\TextInput::make('status'),
+                    Forms\Components\DatePicker::make('service_date'),
+                ]),
 
-                Forms\Components\Textarea::make('unit')
-                    ->required()
-                    ->maxLength(65535)
-                    ->columnSpanFull(),
+                Forms\Components\Textarea::make('description'),
+                Forms\Components\Grid::make()
+                    ->schema([
+                        Forms\Components\Select::make('service_id')
+                            ->relationship('service', 'name_order')
+                            ->createOptionForm([
+                                Forms\Components\TextInput::make('name_order')
+                                    ->required()
+                                    ->maxLength(255),
+                                Forms\Components\TextInput::make('name')
+                                    ->required()
+                                    ->maxLength(255),
+                            ]),
+                        Forms\Components\Select::make('teamleader_id')
+                            ->relationship('teamleader', 'name')
+                            ->searchable()
+                            ->preload()
+                            ->required()
+                            ->createOptionForm([
+                                Forms\Components\TextInput::make('name')
+                                    ->required()
+                                    ->maxLength(255),
+                                Forms\Components\Select::make('user_id')
+                                    ->relationship('user', 'name')
+                                    ->searchable()
+                                    ->preload()
+                                    ->required()
+                                    ->createOptionForm([
+                                        Forms\Components\TextInput::make('name')
+                                            ->required()
+                                            ->maxLength(255),
+                                    ]),
+                                Forms\Components\TextInput::make('phone')
+                                    ->tel()
+                                    ->required()
+                                    ->maxLength(255),
+                                Forms\Components\TextInput::make('email')
+                                    ->email()
+                                    ->required()
+                                    ->maxLength(255),
+                                Toggle::make('receive_email')
+                                    ->onColor('success')
+                                    ->offColor('danger'),
+                                Toggle::make('receive_sms')
+                                    ->onColor('success')
+                                    ->offColor('danger'),
+                                Toggle::make('receive_app')
+                                    ->onColor('success')
+                                    ->offColor('danger'),
+                            ]),
+                    ]),
+                
 
-                Forms\Components\TextInput::make('teamleader_id')
-                    ->required()
-                    ->numeric(),
-                Forms\Components\Textarea::make('description')
-                    ->required()
-                    ->maxLength(65535)
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('name')
-                    ->required()
-                    ->maxLength(65535)
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('building')
-                    ->required()
-                    ->maxLength(65535)
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('service')
-                    ->required()
-                    ->maxLength(65535)
-                    ->columnSpanFull(),
-                Forms\Components\Textarea::make('building_address')
-                    ->required()
-                    ->maxLength(65535)
-                    ->columnSpanFull(),
-
-                Forms\Components\DateTimePicker::make('startDate')
-                    ->required(),
-                Forms\Components\DateTimePicker::make('endDate')
-                    ->required(),
-                Forms\Components\TextInput::make('status')
-                    ->required()
-                    ->maxLength(255),
-                Forms\Components\DateTimePicker::make('paint_date')
-                    ->required(),
-                Forms\Components\DateTimePicker::make('cleaning_date')
-                    ->required(),
-                Forms\Components\DateTimePicker::make('startDateTime')
-                    ->required(),
-                Forms\Components\DateTimePicker::make('endDateTime')
-                    ->required(),
-            ]);
+                ]);
     }
 
     public static function table(Table $table): Table
@@ -149,4 +164,8 @@ class OrderResource extends Resource
             'edit' => Pages\EditOrder::route('/{record}/edit'),
         ];
     }
+
+   
+
+
 }

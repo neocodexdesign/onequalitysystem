@@ -12,6 +12,7 @@ class Order extends Model
 
     protected $fillable = [
         'unit',
+        'size',
         'building_id',
         'teamleader_id',
         'service_id',
@@ -21,6 +22,8 @@ class Order extends Model
         'from',
         'status',
         'size',
+        'description_orginal',
+        'title_original',
     ];
 
     protected $dates = ['service_date', 'paint_date', 'cleaning_date'];

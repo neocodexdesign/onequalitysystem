@@ -18,6 +18,8 @@ use Carbon\Carbon;
 class CalendarWidget extends FullCalendarWidget
 {
     public Model | string | null $model = Order::class;
+    
+    protected static ?string $navigationGroup = 'Buildings Manager';
 
     public function fetchEvents(array $fetchInfo): array
     {
@@ -84,7 +86,6 @@ class CalendarWidget extends FullCalendarWidget
                 ]),
 
             Forms\Components\Textarea::make('description'),
-
             Forms\Components\Grid::make()
                 ->schema([
                     Forms\Components\Select::make('service_id')
@@ -97,7 +98,7 @@ class CalendarWidget extends FullCalendarWidget
                                 ->required()
                                 ->maxLength(255),
                         ]),
-                    Forms\Components\Select::make('technician_id')
+                    Forms\Components\Select::make('teamleader_id')
                         ->relationship('teamleader', 'name')
                         ->searchable()
                         ->preload()
@@ -135,6 +136,8 @@ class CalendarWidget extends FullCalendarWidget
                                 ->offColor('danger'),
                         ]),
                 ]),
+
+            
         ];
     }
 }

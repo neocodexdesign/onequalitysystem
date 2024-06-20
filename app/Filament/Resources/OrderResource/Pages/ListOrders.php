@@ -16,6 +16,8 @@ use Carbon\Carbon;
 
 use App\Models\Order;
 
+use App\Filament\Widgets\WorkdoneWG;
+
 
 
 class ListOrders extends ListRecords
@@ -26,6 +28,13 @@ class ListOrders extends ListRecords
     {
         return [
             Actions\CreateAction::make(),
+        ];
+    }
+
+    protected function getHeaderWidgets(): array
+    {
+        return [
+            WorkdoneWG::class,
         ];
     }
 }

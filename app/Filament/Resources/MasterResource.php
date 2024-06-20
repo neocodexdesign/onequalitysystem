@@ -21,7 +21,7 @@ class MasterResource extends Resource
     protected static ?string $model = Master::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
-    protected static ?string $navigationGroup = 'Buidings Administration';
+    protected static ?string $navigationGroup = 'Buildings Administration';
     public static function form(Form $form): Form
     {
         return $form

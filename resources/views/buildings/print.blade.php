@@ -86,18 +86,16 @@
                         <th>Name</th>
                         <th>Address</th>
                         <th>City</th>
-                        <th>State</th>
-                        <th>Phone</th>
+                        <th>Service</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach ($buildings as $building)
                     <tr>                        
                         <td style="width: 36%">{{ $building->name }}</td>
-                        <td style="width: 24%">{{ $building->address }}</td>
-                        <td style="width: 20%; text-align: center;">{{ $building->city }}</td>
-                        <td style="width: 5%; text-align: center;">{{ $building->state }}</td>
-                        <td style="width: 15%; text-align: center;">{{ $building->phone }}</td>
+                        <td style="width: 29%">{{ $building->address }}</td>
+                        <td style="width: 20%; text-align: center;">{{ $building->city }}, {{ $building->state }}</td>
+                        <td style="width: 15%; text-align: center;">{{ $building->service }}</td>
                     </tr>
                     @endforeach
                 </tbody>

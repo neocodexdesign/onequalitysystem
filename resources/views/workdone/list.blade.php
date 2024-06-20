@@ -4,6 +4,30 @@
     <meta charset="UTF-8">
     <title></title>
     <style>
+
+
+.zoom-container {
+    position: relative;
+    width: 100vw;  // 100% da largura da viewport
+    height: 100vh; // 100% da altura da viewport
+    overflow: auto; // Permite a rolagem se necessário
+    display: flex;
+    justify-content: flex-start; // Alinha o conteúdo à esquerda
+    align-items: flex-start; // Ancora o conteúdo no topo do container
+}
+    /*width: 100vw;
+    height: 100vh;
+    //overflow: auto; /* Garante barras de rolagem se o conteúdo exceder */
+
+table {
+    width: auto;
+    min-width: 100%;
+    border-collapse: collapse;
+    transform-origin: left top; // Muda o ponto de origem para o canto esquerdo superior
+    transition: transform 0.3s ease;
+}
+
+
         body {
             font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;            
         }
@@ -13,27 +37,15 @@
             text-align: center;
         }
 
-        .zoom-container {
-            transform-origin: top left; /* Define o ponto de origem para o zoom */
-            overflow: auto; /* Permite a rolagem se o conteúdo exceder a área visível */
-            border: 1px solid #000; /* Para visualização */
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-           table-layout: fixed;
-       }
-        th, td {
-            border: 1px solid black; /* Apenas para visualização */
-            padding: 8px;
-            text-align: center;
-            word-wrap: break-word; /* Permite quebra de texto dentro da célula */
-            min-width: 180px; /* Largura mínima da célula */
-            min-height: 50px; /* Altura mínima da célula */
-            vertical-align: top; /* Isso faz com que o conteúdo inicie no topo */
-            white-space: normal; /* Permite que o texto use mais de uma linha */
-            text-overflow: clip; /* Remove a elipse e mostra o texto como está */
-        }
+
+        
+
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px; /* Espaçamento adequado dentro das células */
+}
 
         th {
             background-color: #f2f2f2;
@@ -68,18 +80,17 @@ $maxOrders = $buildings->reduce(function ($carry, $building) {
 </div>
 
 @php
-            $totalColunas = 0;
-            foreach ($buildings as $building) {
-                // Cada edifício contribui com pelo menos 1 coluna (PAINT).
-                $totalColunas += 1;
-                
-                // Se o edifício tiver ordens de CLEANING, adiciona mais 1 coluna.
-                if ($building->hasCleaning) {
-                    $totalColunas += 1;
-                }
-            }
-        @endphp
-<div id="zoomContainer" class="zoom-container">    
+    $totalColunas = 0;
+    foreach ($buildings as $building) {
+        // Cada edifício contribui com pelo menos 1 coluna (PAINT).
+        $totalColunas += 1;        
+        // Se o edifício tiver ordens de CLEANING, adiciona mais 1 coluna.
+        if ($building->hasCleaning) {
+            $totalColunas += 1;
+        }
+    }
+@endphp
+<div id="zoomContainer" class="zoom-container">  
 <table>
     <thead>
     <tr>
@@ -122,8 +133,8 @@ $maxOrders = $buildings->reduce(function ($carry, $building) {
                     <div style="min-height: 50px; min-width: 150px; !important"></div>
                         @if ($nonCleaningOrder)
                         <!--    {{-- $nonCleaningOrder->service->name_order }} - {{ $nonCleaningOrder->service_value --}} -->
-                            {{ $nonCleaningOrder->unit ?? 'N/A' }} ({{ $nonCleaningOrder->size ?? 'N/A' }}) <br /><br />
-                            {{ $nonCleaningOrder->description ?? 'N/A' }} ({{ $nonCleaningOrder->description ?? 'N/A' }})<br />
+                        {{  $nonCleaningOrder->unit ?? 'N/A' }} <br /> ({{ $nonCleaningOrder->size ?? 'N/A' }}) <br /><br />
+                        {{  $nonCleaningOrder->description ?? 'N/A' }}<br /> 
                         @else
                             &nbsp;
                         @endif
@@ -133,13 +144,14 @@ $maxOrders = $buildings->reduce(function ($carry, $building) {
                     <td class="{{ $cleaningOrder ? 'cleaning' : 'empty' }}">
                         <div style="min-height: 50px; min-width: 150px; vertical-align: top !important;"></div>
                             @if ($cleaningOrder)
-                                <!-- {{ $cleaningOrder->service->name_order }} - {{ $cleaningOrder->service_value }} -->
+                                {{ $cleaningOrder->service->name_order }} - {{ $cleaningOrder->service_value }} 
                                 {{ $nonCleaningOrder->unit ?? 'N/A' }} ({{ $nonCleaningOrder->size ?? 'N/A' }}) <br /><br />
                                 {{ $cleaningOrder->description ?? 'N/A' }} ({{ $cleaningOrder->description ?? 'N/A' }}) <br /><br />
                             @else
                                 &nbsp;
                             @endif
                         </div>
+                        <input type="hidden" id="order_id" name="order_id" value="order->id">                       
                     </td>
                 @endif
             @endforeach
@@ -150,25 +162,33 @@ $maxOrders = $buildings->reduce(function ($carry, $building) {
 </div>
 
 <script>
-let zoomLevel = 1.4; // Nível de zoom inicial é 1 (sem zoom)
+
+var currentScale = 1.0; // Escala inicial de 100%
 
 function zoomIn() {
-    console.log('Zoom In: ', zoomLevel);
-    zoomLevel += 0.1; // Aumenta o zoom em 10%
-    updateZoom();
+    currentScale *= 1.1; // Aumenta a escala em 10%
+    applyZoom();
 }
 
 function zoomOut() {
-    console.log('Zoom Out: ', zoomLevel);
-    zoomLevel -= 0.1; // Diminui o zoom em 10%
-    updateZoom();
+    currentScale = Math.max(0.5, currentScale - 0.1); // Diminui a escala, mínimo de 50%
+    applyZoom();
 }
 
-function updateZoom() {
-    const container = document.getElementById('zoomContainer');
-    container.style.transform = `scale(${zoomLevel})`;
+function applyZoom() {
+    var zoomContainer = document.getElementById('zoomContainer');
+    zoomContainer.style.transform = `scale(${currentScale})`;
+    zoomContainer.style.transformOrigin = 'left top'; // Mantém o ponto de origem à esquerda no topo
+}
+
+window.addEventListener('resize', adjustZoomToFit);
+
+function adjustZoomToFit() {
+    var zoomContainer = document.getElementById('zoomContainer');
+    var scaleWidth = window.innerWidth / zoomContainer.offsetWidth;
+    zoomContainer.style.transform = `scale(${scaleWidth})`;
+    zoomContainer.style.transformOrigin = 'left top'; // Mantém a tabela ancorada no canto esquerdo superior
 }
 </script>
-
 </body>
 </html>

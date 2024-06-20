@@ -14,7 +14,6 @@ use App\Http\Livewire\CalendarModal;
 use App\Http\Controllers\WorkdoneController;
 use App\Http\Controllers\GoogleImportController;
 use App\Http\Controllers\BuildingController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +26,11 @@ use App\Http\Controllers\BuildingController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('sendsms');
+});
+            
+Route::get('/sendsms', function () {
+    return view('txtmsg.sendsms')->name('sendsms');
 });
 
 Route::get('/google.getDatetoImport', function () {
@@ -66,6 +69,7 @@ Route::get('/events/modal/{eventId}', function ($eventId) {
     //dd($eventId); // Comente ou remova esta linha
     return view('livewire.calendar-modal', ['eventId' => $eventId]);
 })->name('events.modal');
+
 
 /*
 Route::get(

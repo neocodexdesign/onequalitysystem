@@ -32,11 +32,8 @@ class BuildingResource extends Resource
 {
 
     protected static ?string $model = Building::class;
-
     protected static ?string $navigationIcon = 'heroicon-o-check-badge';
-
-    protected static ?string $navigationGroup = 'Buidings x Administration';
-
+    protected static ?string $navigationGroup = 'Buildings Administration';
     public static function getNavigationBadge(): string
     {
         return static::getModel()::count();
@@ -243,33 +240,21 @@ class BuildingResource extends Resource
                                     ->schema([
                                         Forms\Components\FileUpload::make('contract')
                                             ->multiple(),
+                                        Forms\Components\TextInput::make('name_wwd')
+                                            ->required()
+                                            ->maxLength(255),                                        
                                         Forms\Components\Select::make('wwdpay_id')
                                             ->relationship('wwdpay', 'description')
                                             ->searchable()
                                             ->preload()
-
                                             ->createOptionForm([
                                                 Forms\Components\TextInput::make('description')
                                                     ->required()
                                                     ->maxLength(255),
                                             ]),
+
                                     ])->columnSpan(span: 'full')
-
-                            ]),
-
-
-                        Tabs\Tab::make('Contract')
-                            ->schema([
-                                Section::make()
-                                    ->schema([
-                                        Forms\Components\FileUpload::make('contract')
-                                            ->multiple(),
-                                        Forms\Components\TextInput::make('name_wwd')
-                                            ->required()
-                                            ->maxLength(255),
-                                    ])->columnSpan(span: 'full')
-
-                            ]),
+                            ]),                       
                     ]),
             ]);
     }
@@ -282,7 +267,8 @@ class BuildingResource extends Resource
             ->columns([
                 Tables\Columns\ImageColumn::make('image'),
                 Tables\Columns\TextColumn::make('name')
-                    ->searchable(),
+                    ->searchable()
+                    ->sortable(),
             ])
             
             ->actions([

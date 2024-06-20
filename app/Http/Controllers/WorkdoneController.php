@@ -8,9 +8,8 @@ use App\Models\Item_proposal;
 
 class WorkdoneController extends Controller
 {
-    public function list() {
+    public function listA() {
         $buildings = Building::with(['orders.service', 'proposal.item_proposal'])->get();
-    
         $maxOrders = 0;
     
         foreach ($buildings as $building) {
@@ -36,9 +35,48 @@ class WorkdoneController extends Controller
             $maxOrders = max($maxOrders, $ordersCount);
     
             $building->divideColumn = $building->hasPaint && $building->hasCleaning;
+           
             
         }
     
+        return view('workdone.list', compact('buildings', 'maxOrders'));
+    }
+
+    public function list() {
+        // Carrega todos os edifícios com as relações necessárias
+        $buildings = Building::with(['orders.service', 'proposal.item_proposal'])->get();
+    
+        $maxOrders = 0;
+    
+        // Filtrando edifícios que têm ordens
+        $buildings = $buildings->filter(function ($building) {
+            return $building->orders->isNotEmpty(); // Mantém apenas edifícios com ordens
+        });
+    
+        foreach ($buildings as $building) {
+            $building->hasPaint = false;
+            $building->hasCleaning = false;
+    
+            // Preparando um mapa dos valores dos ItemProposals para acesso rápido
+            $itemValuesMap = $building->proposal ? $building->proposal->item_proposal->keyBy('service_id')->mapWithKeys(function($item) {
+                return [$item->service_id => $item->value];
+            }) : collect();
+    
+            foreach ($building->orders as $order) {
+                if ($order->service->id == 3) {
+                    $building->hasCleaning = true;
+                    $order->service_value = $itemValuesMap->get($order->service_id, 'Valor não encontrado');
+                } else {
+                    $building->hasPaint = true;
+                    $order->service_value = $itemValuesMap->get($order->service_id, 'Valor não encontrado');
+                }
+            }
+    
+            $ordersCount = $building->orders->count();
+            $maxOrders = max($maxOrders, $ordersCount);
+    
+            $building->divideColumn = $building->hasPaint && $building->hasCleaning;
+        }  
         return view('workdone.list', compact('buildings', 'maxOrders'));
     }
 
